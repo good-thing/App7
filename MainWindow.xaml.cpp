@@ -23,3 +23,9 @@ namespace winrt::App7::implementation
     }
 
 }
+
+
+void winrt::App7::implementation::MainWindow::myButton_Click(winrt::Windows::Foundation::IInspectable const& sender, winrt::Microsoft::UI::Xaml::RoutedEventArgs const& e)
+{
+    myButton().Content(box_value(L"Clicked"));
+}

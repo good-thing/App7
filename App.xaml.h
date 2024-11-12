@@ -1,7 +1,6 @@
 #pragma once
 
 #include "App.xaml.g.h"
-#include "CustomControl.h"
 #include "BgLabelControl.h"
 
 namespace winrt::App7::implementation
